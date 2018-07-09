@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2152be1074bbfd309ffa7e1ac04ed840",
+    "packages": [
+        {
+            "name": "ees/vendor1",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danneaves-ee/vendor1.git",
+                "reference": "7bd6bef0f7120c9cc1120d771c5e20c481cdd1db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/danneaves-ee/vendor1/zipball/7bd6bef0f7120c9cc1120d771c5e20c481cdd1db",
+                "reference": "7bd6bef0f7120c9cc1120d771c5e20c481cdd1db",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vendor1\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "support": {
+                "source": "https://github.com/danneaves-ee/vendor1/tree/v0.0.0",
+                "issues": "https://github.com/danneaves-ee/vendor1/issues"
+            },
+            "time": "2018-07-06T14:55:46+00:00"
+        },
+        {
+            "name": "ees/vendor2",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danneaves-ee/vendor2.git",
+                "reference": "03bfc8f1030c65bb90de792e8f3a5cd68a135125"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/danneaves-ee/vendor2/zipball/03bfc8f1030c65bb90de792e8f3a5cd68a135125",
+                "reference": "03bfc8f1030c65bb90de792e8f3a5cd68a135125",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vendor2\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "support": {
+                "source": "https://github.com/danneaves-ee/vendor2/tree/v0.0.0",
+                "issues": "https://github.com/danneaves-ee/vendor2/issues"
+            },
+            "time": "2018-07-06T14:59:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

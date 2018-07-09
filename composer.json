@@ -1,0 +1,14 @@
+{
+    "name": "ees/project2",
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {
+        "ees/vendor1": "~1",
+        "ees/vendor2": "~1"
+    },
+    "repositories": [
+        {"type": "vcs", "url": "https://github.com/danneaves-ee/vendor1.git"},
+        {"type": "vcs", "url": "https://github.com/danneaves-ee/vendor2.git"}
+    ]
+}
